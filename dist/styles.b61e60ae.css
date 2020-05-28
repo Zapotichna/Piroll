@@ -1,5 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito+Sans:wght@300;400;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0; 
+  font-family: 'Montserrat', sans-serif;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Header */
 .header{
-    background-image: style="background-image: url('https://unsplash.it/1920/1080')";
+    background-image: url('https://unsplash.it/1366/670');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header-logo{
+    padding-top: 38px;
+}
+.header-content{
+    max-width: 474px;
+}
+.heade-title{
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.header-subtitle{
+    color: #787878;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* Button */
+.button{
+    padding: 0;
+    color: #ffffff;
+    background-color: #10c9c3;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 84px;
+    text-transform: uppercase;
+    border: 0;
+}
+/* Navigation */
+.nav{
+    padding-top: 45px;
+}
+.nav-link{
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #191919;
+}
+.nav-link:hover{
+    color: #10c9c3;
 }
 
 /*# sourceMappingURL=/styles.b61e60ae.css.map */

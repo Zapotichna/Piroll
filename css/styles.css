@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito+Sans:wght@300;400;700&display=swap');
-@import './grid.css'
+@import './grid.css';
 *,
 *::before,
 *::after {
@@ -48,11 +48,10 @@ font-family: 'Nunito Sans', sans-serif; */
     flex-direction: column;
     align-items: flex-end;
     margin-top: 180px;
-    text-align: left;
+    text-align: right
 }
 .header-title{
     margin-bottom: 32px;
-    margin-right: 21px;
     color: #1d1d1d;
     font-family: Montserrat;
     font-size: 38px;
@@ -70,13 +69,12 @@ font-family: 'Nunito Sans', sans-serif; */
 }
 /* Button */
 .button{
-    padding: 0 46px;
+    padding: 23px 46px;
     color: #ffffff;
     background-color: #10c9c3;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
-    line-height: 84px;
     text-transform: uppercase;
     border: 0;
 }
@@ -128,5 +126,55 @@ font-family: 'Nunito Sans', sans-serif; */
 }   
 /* Skill */
 .skills{
+    padding: 164px 0;
     background-color: #f8f9f9;
+}
+.skills-item{
+    margin-bottom: 19px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+/* Progress */
+.progress{
+    margin-bottom: 41px;
+    display: flex;
+    overflow: hidden;
+    background-color: #d8d8d8;;
+    height: 2px;
+    width: 500px;
+}
+/* Info */
+.info{
+    background-color: #10c9c3;
+}
+/* Box */
+.box-icon,
+.box-title,
+.box-subtitle{
+    color: #ffffff;
+    font-family: Montserrat;
+    line-height: 30px;
+}
+.box-icon{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+}
+.box-title,
+.box-subtitle{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box-title{
+    font-size: 18px;
+    letter-spacing: 0.54px;
+}
+.box-subtitle{
+    font-size: 12px;
+    letter-spacing: 1.2px;
 }

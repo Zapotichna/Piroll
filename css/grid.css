@@ -12,6 +12,9 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.col-50{
+.col-50 {
     flex-basis: 50%;
+}
+.col-25{
+    flex-basis: 25%;
 }
